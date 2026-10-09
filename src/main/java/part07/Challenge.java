@@ -46,4 +46,5 @@ public class Challenge {
         }
         return count;
     }
+    //Completed Git Log
 }
