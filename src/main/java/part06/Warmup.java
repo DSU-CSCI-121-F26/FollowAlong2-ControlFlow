@@ -13,5 +13,7 @@ package part06;
 // You need the main method AND the import line. Type both yourself.
 
 public class Warmup {
+    public static void main(String[] args) {
 
+    }
 }

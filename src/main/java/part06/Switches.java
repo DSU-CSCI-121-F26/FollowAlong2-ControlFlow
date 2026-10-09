@@ -14,6 +14,55 @@ package part06;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does.
 
+//A public class called Switches
 public class Switches {
+    //The main method where the program starts running
+    public static void main(String[] args) {
+        //creates a string variable named day stores "Mondy"
+        String day = "Mondy";
 
+        //A switch statement that checks the value of the variable day
+        switch (day) {
+            //If day equals sunday it breaks here
+            case "Sunday":
+                System.out.println("It is Sunday");
+                break;
+            //breaks the switch so it doesnt fall through
+
+            //If day equals sunday it breaks here
+            case "Monday":
+                System.out.println("It is Monday");
+                break;
+            //breaks the switch so it doesnt fall through
+
+            //If day equals Tuesday it breaks here
+            case "Tuesday":
+                System.out.println("It is Tuesday");
+                break;
+            //breaks the switch so it doesnt fall through
+
+            //If day equals Wednesday it breaks here
+            case "Wednesday":
+                System.out.println("It is Wednesday");
+                break;
+            //breaks the switch so it doesnt fall through
+
+            //If day equals Thursday it breaks here
+            case "Thursday":
+                System.out.println("It is Thursday");
+                break;
+            //breaks the switch so it doesnt fall through
+
+            //If day equals Friday it breaks here
+            case "Friday":
+                System.out.println("It is a Friday");
+                break;
+            //breaks the switch so it doesnt fall through
+
+            //runs if none of the above cases match
+            default:
+                System.out.println(day+" is not a day");
+                //prints the value of the day and says its not a valid day
+        }
+    }
 }

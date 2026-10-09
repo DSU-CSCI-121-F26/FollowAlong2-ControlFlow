@@ -9,6 +9,52 @@ package part07;
 // There is no main method here yet. Typing it is part of the stretch.
 // If your program never stops: click the red square (Stop) in the Run window.
 
+import java.util.Scanner;
+
 public class Stretch {
+    public static void main(String[] args) {
+        /* My Guess:
+        I think it will print True,False,True,False, count is 3 1,2,3
+         */
+        int x = 7;
+        System.out.println(x > 5 && x < 10);
+        System.out.println(x > 5 && x > 10);
+        System.out.println(x < 5 || x == 7);
+        System.out.println(!(x == 7));
+        int count = 3;
+        while (count > 0) {
+            System.out.println("count is " + count);
+            count = count - 1;
+        }
+        System.out.println("done");
+
+        //Stretch B
+
+        int count1 = 5;
+
+        while (count1 >= 1){
+            System.out.println(count1);
+            count1--;
+        }
+        System.out.println("Liftoff!");
+
+        //B2
+        Scanner scanner = new Scanner(System.in);
+
+        String password = "";
+
+        while (!password.equals("java123")){
+            System.out.println("Enter password: ");
+            password = scanner.nextLine();
+        }
+        System.out.println("Acess granted");
+
+        int number = 0;
+        while (number < 1|| number > 10){
+            System.out.println("Pick a number from 1 to 10: ");
+            number =  scanner.nextInt();
+        }
+        System.out.println("You picked "+number);
+    }
 
 }

@@ -9,5 +9,8 @@ package part06;
 // There is no main method here yet. Typing it is part of the stretch.
 
 public class Stretch {
+    public static void main(String[] args) {
+
+    }
 
 }
