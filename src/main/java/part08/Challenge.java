@@ -27,7 +27,7 @@ public class Challenge {
 
     // Build a triangle of stars with the given number of rows.
     // Row 1 has 1 star, row 2 has 2 stars, and so on. Every row ends with \n.
-    // triangle(3) should return "*\n**\n***\n"   which prints as:
+    // triangle(3) should return "*\n**\n***\n  which prints as:
     //     *
     //     **
     //     ***
