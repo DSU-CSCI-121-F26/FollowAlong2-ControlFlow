@@ -15,19 +15,24 @@ package part08;
 
 public class ForLoops {
     public static void main(String[] args) {
-
+        // decleration of the for loop with reads until the end based upon the set amount iterations told to do so 10 times starting from 0 going up 1 time until being 10
         for (int i = 0; i <= 10; i++) {
+            // outputting 0,1,2,3,4... from the given loop
             System.out.println(i);
         }
-
+        // same as above starting from 10 and counting down to 0 and subtracting 1 everytime the loop is called upon until broken
         for (int i = 10; i >= 0; i--) {
+            // the output which will be 10,9,8,7,6... until reaching 0
             System.out.println(i);
         }
+        // once the loop hits zero it breaks, and then it reads the next line outside of it and outputs happy new years
         System.out.println("Happy New Year!");
-
+        // same as above but this time taking away 2 away every time from 10
         for (int i = 10; i >= 0; i -= 2) {
+            // output will be 10,8,6,4,2,0
             System.out.println(i);
         }
+        // the loop will break once it hits zero and read the next line and output happy new years
         System.out.println("Happy New Years!");
 
 
