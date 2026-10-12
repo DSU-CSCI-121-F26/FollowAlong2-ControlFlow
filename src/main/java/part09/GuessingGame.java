@@ -1,4 +1,6 @@
 package part09;
+import java.util.Scanner;
+import java.util.Random;
 
 // Part 09 — CHECKPOINT. No video in this part.
 // Video (only if you need a reminder): https://www.youtube.com/watch?v=xk4_1vDrzzo
@@ -14,5 +16,14 @@ package part09;
 //    saying in YOUR OWN WORDS what that line does.
 
 public class GuessingGame {
+    /*
+    I am going to ask for the name of the person after that I am
+    going to ask if they want to play a little game I made giving them
+    the char options of Y/y and N/n if the click N/n it outputs bye bye
+    and kills the game. if yes is pressed the game is bounded to only 50
+    and there will be a count displayed until once the userGuess == randNum;
+     */
+
+
 
 }
