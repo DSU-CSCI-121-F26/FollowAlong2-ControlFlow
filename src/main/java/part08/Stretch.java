@@ -9,5 +9,50 @@ package part08;
 // There is no main method here yet. Typing it is part of the stretch.
 
 public class Stretch {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 3; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+        for (int i = 5; i > 0; i -= 2) {
+            System.out.println("i is " + i);
+        }
+        for (int i = 1; i <= 2; i++) {
+            for (int j = 1; j <= 3; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        /*
+        The first for loop will output "1 2 3", the second for loop will output "i is 5 i is 3 i is 1" and the last
+        for loop will output **
+                             **
+                             **
+        and once it breaks it will do a new line
+         */
+        // didn't read the new line on the 2nd one but right overall
+        // and for the last one did it backwards basically
+
+        for (int i = 5; i >= 1; i--) {
+            System.out.println(i);
+        }
+        System.out.println("Liftoff!");
+
+         for (int i = 2; i <= 20; i += 2) {
+             System.out.print(i + " ");
+         }
+        System.out.println();
+
+         for (int row = 1; row <= 5; row++) {
+             for (int col = 1; col <= 5; col++) {
+                 System.out.println(row * col + "\t");
+             }
+             System.out.println();
+         }
+
+    }
+
 
 }
