@@ -24,6 +24,49 @@ public class GuessingGame {
     and there will be a count displayed until once the userGuess == randNum;
      */
 
+    public static void main(String[] args) {
+        Random rand = new Random();
+        Scanner scnr = new Scanner(System.in);
 
 
+        String userName;
+        int randNum = rand.nextInt(100) + 1;
+        int guesses = 0;
+
+
+        System.out.println("Hello what is your name?");
+        userName = scnr.nextLine();
+        System.out.println("Hello " + userName);
+        System.out.println("Do you want to play a game? (Click Y or N)");
+        char userButton = scnr.next().charAt(0);
+
+        if (userButton == 'Y' || userButton == 'y') {
+            System.out.println("Pick a number between 1 - 100");
+            int userGuess = scnr.nextInt();
+            guesses++;
+
+            while (userGuess != randNum) {
+                if (userGuess > randNum) {
+                    System.out.println("Go Lower!");
+                } else {
+                    System.out.println("Go Higher!");
+                }
+                userGuess = scnr.nextInt();
+                guesses++;
+            }
+
+            System.out.println("Correct!\nGuesses:" + guesses);
+        }
+
+        if (userButton == 'N' || userButton == 'n') {
+            System.out.println("Bye Bye");
+        }
+    }
 }
+
+
+
+
+
+
+
