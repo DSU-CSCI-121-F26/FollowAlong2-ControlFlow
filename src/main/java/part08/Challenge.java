@@ -17,17 +17,30 @@ public class Challenge {
     // repeatWord("Go", 1)   should return "Go"
     // repeatWord("abc", 0)  should return ""   (zero times = an empty String)
     public static String repeatWord(String word, int n) {
-        return "";   // YOUR CODE
+        String result = "";
+        for (int i = 0; i < n; i++) {
+            result += word;
+        }
+        return result;
+
     }
 
     // Build a triangle of stars with the given number of rows.
     // Row 1 has 1 star, row 2 has 2 stars, and so on. Every row ends with \n.
-    // triangle(3) should return "*\n**\n***\n"   which prints as:
+    // triangle(3) should return "*\n**\n***\n  which prints as:
     //     *
     //     **
     //     ***
     // triangle(0) should return ""
     public static String triangle(int rows) {
-        return "";   // YOUR CODE
+        String result = "";
+        for (int row = 1; row <= row; row++) {
+            for (int col = 1; col <= row; col++) {
+                result += "*";
+            }
+            result += "\n";
+        }
+        return result;   // YOUR CODE
     }
+
 }
