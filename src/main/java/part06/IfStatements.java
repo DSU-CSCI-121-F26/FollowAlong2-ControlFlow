@@ -16,7 +16,7 @@ package part06;
 
 public class IfStatements {
     public static void main(String[] args) {
-        // declaring and assigning the int age with whatever i decide
+        // declaring and assigning the int age with whatever I decide
         int age = 5;
         // first branch of the if statement saying if you are set age or older you are this
         if (age >= 75) {
