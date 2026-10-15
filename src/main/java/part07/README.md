@@ -549,9 +549,9 @@ cannot see them.
 Fill this in before you push. Type your answers after the colons.
 
 ```
-Started:
-Finished:
-The line that took me the longest:
+Started: October 14th, Wednesday
+Finished: October 15th, Thursday
+The line that took me the longest: The digit count challenge 
 ```
 
 ---
