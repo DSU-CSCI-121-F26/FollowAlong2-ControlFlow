@@ -620,9 +620,9 @@ cannot see them.
 Fill this in before you push. Type your answers after the colons.
 
 ```
-Started:
-Finished:
-The line that took me the longest:
+Started: October 14, wednesday
+Finished: October 14, wednesday
+The line that took me the longest:  the Cancharge method
 ```
 
 ---
