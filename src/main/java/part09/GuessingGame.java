@@ -1,4 +1,5 @@
 package part09;
+// importing java.util.random and Scanner to be able to use their libraries
 import java.util.Random;
 import java.util.Scanner;
 // Part 09 — CHECKPOINT. No video in this part.
@@ -13,10 +14,12 @@ import java.util.Scanner;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does.
-
+// publicly accessed class called GuessingGame
 public class GuessingGame {
 
+    // the start of the program
     public static void main(String[] args) {
+
         // make scanner and random objects to be able to use them
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
@@ -28,32 +31,35 @@ public class GuessingGame {
         int guess = 0;
         int count = 0;
 
-        // say hello
+        // prompt the user to pick a number for the game
         System.out.println("I'm thinking of a number between 1 and 100.");
 
         // loop while the guess is wrong:
         while (guess != randNum) {
 
 
-            //     ask for a guess
+            // ask for a guess
             System.out.print("Your guess: ");
             guess = scanner.nextInt();
 
-            //     count it
+            // count it
             count++;
 
-            //     say too high or too low
+            // if the guess is greater than the randNum
             if (guess > randNum) {
+                // print Too high!
                 System.out.println("Too high!");
+                // else if the guess is less than the randNum
             } else if (guess < randNum) {
+                // print Too low!
                 System.out.println("Too low!");
             }
         }
 
         // say they got it, and how many guesses
         System.out.println("Correct! You got it in " + count + " guesses.");
-
+        // closing scanner
         scanner.close();
         }
-    }
+}
 
