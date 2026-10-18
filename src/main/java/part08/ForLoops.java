@@ -13,6 +13,18 @@ package part08;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
+// publicly accessed class called ForLoops
 public class ForLoops {
-
+    // the start of the program
+    public static void main(String[] args) {
+        // for loop running as long as i is greater than or equal to 0
+        for (int i = 10; i >= 0;) {
+            // prints i
+            System.out.println(i);
+            // decrements 2 every time the loop runs
+            i -= 2;
+        }
+        // prints "Happy New Year!"
+        System.out.println("Happy New Year!");
+    }
 }
