@@ -28,7 +28,6 @@ public class Challenge {
     //   canPlay(true, true, 21)    → false   too late
     //   canPlay(true, false, 7)    → false   too early
     public static boolean canPlay(boolean homeworkDone, boolean isWeekend, int hour) {
-
         return (homeworkDone || isWeekend) && (hour >= 8 && hour < 21);
     }
 
