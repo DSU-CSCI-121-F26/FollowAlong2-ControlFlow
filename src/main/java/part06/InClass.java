@@ -8,20 +8,14 @@ import java.util.Scanner;
 
 public class InClass {
     public static void main(String[] args) {
+    }
+}
 
 
 
         // STEP 1 — we call our method here, then write a switch together.
         //
-        static String batteryStatus(int battery) {
-        if (battery >= 100) {
-            return "full";
-        } else if (battery>=20) {
-            return "ok";
-        }   return "low";
-        {
 
-        }
             // STEP 2 — fix the bugs. Each line below has ONE mistake.
             // Move ONE line at a time above the /* line, so Java sees it.
             // Read the red error. Fix it. Run it. Then do the next line.
@@ -30,7 +24,8 @@ public class InClass {
         else System.out.println("Stopped");
         if mode.equals("TURN") System.out.println("Turning");
         */
-        }
+
+
 
         // STEP 1 (continued) — we write the batteryStatus method here, outside main.
 
