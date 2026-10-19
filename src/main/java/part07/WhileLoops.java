@@ -18,14 +18,14 @@ import java.util.Scanner;
 
 public class WhileLoops {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String name = "";
-        do {
-            System.out.print("Enter your name: ");
-            name = scanner.nextLine();
-        } while (name.isBlank());
+        Scanner scanner = new Scanner(System.in); // Creates a Scanner object to read user input from the console
+        String name = "";  // Declares a String variable named name and initializes it as an empty string
+        do {  // Starts a do-while loop that executes the block of code at least once
+            System.out.print("Enter your name: ");  // Displays a prompt asking the user to enter their name without moving to a new line
+            name = scanner.nextLine();  // Reads the line of text entered by the user and stores it in the name variable
+        } while (name.isBlank()); // Repeats the loop if the name variable contains only whitespace or is empty
 
-        System.out.println("Hello " + name);
+        System.out.println("Hello " + name);  // Prints a personalized greeting containing the user's name to the console
     }
 
 }
