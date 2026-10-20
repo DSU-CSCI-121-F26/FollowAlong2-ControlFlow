@@ -14,5 +14,11 @@ package part08;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class ForLoops {
+    public static void main(String[] args) {
+        for (int i = 10; 0 <= i; i-=2) { //collects an int 10 and subtracts 2 on the condition of bing greater than 0
+            System.out.println(i);//prints every int subtracted by 2 until 0 is reached
+        }
+        System.out.println("Happy New Year!"); //prints Happy New Year once the loop reaches its end
+    }
 
 }
